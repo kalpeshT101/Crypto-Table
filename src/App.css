@@ -1,0 +1,20 @@
+#app {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ascending {
+    content: "👇";
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.descending {
+    content: "☝️";
+    display: inline-block;
+    margin-left: 1em;
+}
